@@ -1,0 +1,36 @@
+{
+    "heroes": {
+        "StevePi": {
+            "level": 0,
+            "enchantment_points": 0,
+            "inventory": {
+                // The items in use.
+                "sword_slot": {},
+                "bow_slot": {},
+                "armor_slot": {},
+                // The inventory categories (excludes items in use). Below is the format of items in the
+                /*
+                {
+                    "item": {
+                        "level": <Number>,
+                        "enchantments": {
+                            "name": ""
+                            "level": <Number>,
+                        }
+                    }
+                }
+                */
+                "melee": {},
+                "ranged": {},
+                "armor": {},
+                "artifacts": {}
+            }
+        }
+    },
+    "settings": {
+        "default_hero": "StevePi",
+        // "flat" or "angled". "angled" gives lower performance. Restart game to apply.
+        "camera_angle": "flat",
+        "clock": 1
+    }
+}

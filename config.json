@@ -4,8 +4,8 @@
             "level": 0,
             "enchantment_points": 0,
             "inventory": {
-                "sword_slot": {},
-                "bow_slot": {},
+                "melee_slot": {},
+                "ranged_slot": {},
                 "armor_slot": {},
                 "melee": {},
                 "ranged": {},

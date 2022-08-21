@@ -19,6 +19,7 @@ class Player:
 
 
     def die(self) -> None:
+        self.dead: bool = True
         dead_players: List[Player] = []
         players = Player.players
         for player in players:

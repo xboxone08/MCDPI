@@ -1,0 +1,22 @@
+{
+    "heroes": {
+        "StevePi": {
+            "level": 0,
+            "enchantment_points": 0,
+            "inventory": {
+                "sword_slot": {},
+                "bow_slot": {},
+                "armor_slot": {},
+                "melee": {},
+                "ranged": {},
+                "armor": {},
+                "artifacts": {}
+            }
+        }
+    },
+    "settings": {
+        "default_hero": "StevePi",
+        "camera_angle": "flat",
+        "clock": 30
+    }
+}

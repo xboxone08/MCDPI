@@ -8,7 +8,7 @@ heroes: dict = config["heroes"]
 settings: dict = config["settings"]
 hero: str = settings["default_hero"]
 camera_angle: str = settings["camera_angle"]
-fps: int = 1/settings["clock"]
+fps: int = 1/settings["fps"]
 
 assert(hero in heroes)
 assert(camera_angle == "flat" or camera_angle == "angled")

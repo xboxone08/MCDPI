@@ -2,7 +2,7 @@ import mcpi.minecraft as minecraft
 from json import load, dump
 from time import sleep
 
-with open("config.jsonc", 'r') as conf_file:
+with open("config.json", 'r') as conf_file:
     config = load(conf_file)
 heroes: dict = config["heroes"]
 settings: dict = config["settings"]

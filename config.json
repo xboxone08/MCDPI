@@ -17,6 +17,6 @@
     "settings": {
         "default_hero": "StevePi",
         "camera_angle": "flat",
-        "clock": 30
+        "fps": 30
     }
 }
